@@ -56,4 +56,4 @@
 .DS_Store
 
 # Archivos de sistema de Windows
-Thumbs.db
+Thumbs.db.vs/ 
