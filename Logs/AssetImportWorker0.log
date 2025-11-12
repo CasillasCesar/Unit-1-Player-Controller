@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cesar" at "2025-11-12T14:05:30.4265016Z"
 Built from '6000.2/staging' branch; Version is '6000.2.2f1 (ea398eefe1c2) revision 15350158'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cesar" at "2025-11-11T19:55:54.7589232Z"
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 16087 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-11-11T19:55:54Z
+Date: 2025-11-12T14:05:30Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.2f1-x86_64\Editor\Unity.exe
@@ -17,7 +17,7 @@ D:/Videojuegos-Unity/Unit 1-Player Controller
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62076
+61792
 -licensingIpc
 LicenseClient-cesar
 -job-worker-count
@@ -65,29 +65,29 @@ D:/Videojuegos-Unity/Unit 1-Player Controller
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25028]  Target information:
+Player connection [20700]  Target information:
 
-Player connection [25028]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2816597712 [EditorId] 2816597712 [Version] 1048832 [Id] WindowsEditor(7,CasillasT14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20700]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3711817955 [EditorId] 3711817955 [Version] 1048832 [Id] WindowsEditor(7,CasillasT14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25028]  * "[IP] 192.168.10.39 [Port] 0 [Flags] 2 [Guid] 2816597712 [EditorId] 2816597712 [Version] 1048832 [Id] WindowsEditor(7,CasillasT14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20700]  * "[IP] 192.168.5.235 [Port] 0 [Flags] 2 [Guid] 3711817955 [EditorId] 3711817955 [Version] 1048832 [Id] WindowsEditor(7,CasillasT14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25028] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25028] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20700] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20700] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 20696, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17524, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              70a4055719884f8996d0148854e81e6d
-  Correlation Id:          a970999409856b2f04788c8a8b3f5ca8
-  External correlation Id: 939842432906120096
+  Session Id:              127d75151317488ca713d4d42b584d7f
+  Correlation Id:          44cd2f43f3e4955f6fc0cecdf8a9bada
+  External correlation Id: 6707719311345104223
   Machine Id:              GWv9KzcelJAtW/EbyloblR8K/e4=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cesar" (connect: 0.00s, validation: 0.01s, handshake: 0.55s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cesar-notifications" at "2025-11-11T19:55:55.3244273Z"
-[Licensing::Module] Licensing Background thread has ended after 0.57s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cesar" (connect: 0.00s, validation: 0.00s, handshake: 0.21s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cesar-notifications" at "2025-11-12T14:05:30.6386429Z"
+[Licensing::Module] Licensing Background thread has ended after 0.21s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 93.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.2f1 (ea398eefe1c2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -103,18 +103,19 @@ Initialize engine version: 6000.2.2f1 (ea398eefe1c2)
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
-    Version:         Direct3D 12 [level 12.0]
-    Renderer:        AMD Radeon RX 580 2048SP (ID=0x6fdf)
-    Vendor:          ATI
-    VRAM:            8170 MB
-    App VRAM Budget: 7402 MB
-    Driver:          31.0.12027.9001
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:          Intel
+    VRAM:            8043 MB
+    App VRAM Budget: 7385 MB
+    Driver:          32.0.101.7076
+    Unified Memory Architecture
+    Cache Coherent UMA
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x86_64/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -159,8 +160,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x86_64/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x86_64/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x86_64/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.166236 seconds.
-- Loaded All Assemblies, in  2.868 seconds
+Registered in 0.100831 seconds.
+- Loaded All Assemblies, in  2.750 seconds
 Native extension for LinuxStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -169,7 +170,7 @@ Native extension for AppleTV target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1076 ms
+Android Extension - Scanning For ADB Devices 1315 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Failed to load: C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x86_64/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
@@ -177,35 +178,35 @@ Native extension for VisionOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.867 seconds
-Domain Reload Profiling: 5643ms
-	BeginReloadAssembly (801ms)
+- Finished resetting the current domain, in  3.932 seconds
+Domain Reload Profiling: 6676ms
+	BeginReloadAssembly (696ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (198ms)
-	RebuildNativeTypeToScriptingClass (83ms)
-	initialDomainReloadingComplete (527ms)
-	LoadAllAssembliesAndSetupDomain (1166ms)
-		LoadAssemblies (847ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (215ms)
+	RebuildNativeTypeToScriptingClass (64ms)
+	initialDomainReloadingComplete (508ms)
+	LoadAllAssembliesAndSetupDomain (1258ms)
+		LoadAssemblies (706ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1062ms)
-			TypeCache.Refresh (1057ms)
-				TypeCache.ScanAssembly (947ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (2868ms)
+		AnalyzeDomain (1214ms)
+			TypeCache.Refresh (1202ms)
+				TypeCache.ScanAssembly (1132ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (3935ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2599ms)
+		SetupLoadedEditorAssemblies (3657ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1619ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (268ms)
-			ProcessInitializeOnLoadAttributes (470ms)
-			ProcessInitializeOnLoadMethodAttributes (231ms)
+			InitializePlatformSupportModulesInManaged (2153ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (568ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (568ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -225,8 +226,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  5.008 seconds
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+- Loaded All Assemblies, in  9.170 seconds
+Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
@@ -242,125 +243,52 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.874 seconds
-Domain Reload Profiling: 8855ms
-	BeginReloadAssembly (1014ms)
+- Finished resetting the current domain, in 10.225 seconds
+Domain Reload Profiling: 19384ms
+	BeginReloadAssembly (858ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
+		DisableScriptedObjects (39ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (111ms)
-	RebuildCommonClasses (179ms)
-	RebuildNativeTypeToScriptingClass (55ms)
-	initialDomainReloadingComplete (312ms)
-	LoadAllAssembliesAndSetupDomain (3420ms)
-		LoadAssemblies (2861ms)
+		CreateAndSetChildDomain (119ms)
+	RebuildCommonClasses (204ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (207ms)
+	LoadAllAssembliesAndSetupDomain (7826ms)
+		LoadAssemblies (2991ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1269ms)
-			TypeCache.Refresh (1020ms)
-				TypeCache.ScanAssembly (949ms)
-			BuildScriptInfoCaches (202ms)
-			ResolveRequiredComponents (35ms)
-	FinalizeReload (3876ms)
+		AnalyzeDomain (5317ms)
+			TypeCache.Refresh (4575ms)
+				TypeCache.ScanAssembly (4434ms)
+			BuildScriptInfoCaches (577ms)
+			ResolveRequiredComponents (139ms)
+	FinalizeReload (10227ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2739ms)
+		SetupLoadedEditorAssemblies (7926ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (112ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (674ms)
-			ProcessInitializeOnLoadAttributes (1717ms)
-			ProcessInitializeOnLoadMethodAttributes (201ms)
-			AfterProcessingInitializeOnLoad (20ms)
+			InitializePlatformSupportModulesInManaged (594ms)
+			SetLoadedEditorAssemblies (125ms)
+			BeforeProcessingInitializeOnLoad (2640ms)
+			ProcessInitializeOnLoadAttributes (3955ms)
+			ProcessInitializeOnLoadMethodAttributes (559ms)
+			AfterProcessingInitializeOnLoad (52ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (57ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 6.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6174 unused Assets / (4.3 MB). Loaded Objects now: 6884.
-Memory consumption went from 134.6 MB to 130.3 MB.
-Total: 18.963100 ms (FindLiveObjects: 1.106300 ms CreateObjectMapping: 1.041800 ms MarkObjects: 12.069100 ms  DeleteObjects: 4.743100 ms)
+Unloading 6175 unused Assets / (4.5 MB). Loaded Objects now: 6885.
+Memory consumption went from 134.5 MB to 130.0 MB.
+Total: 47.899100 ms (FindLiveObjects: 1.953100 ms CreateObjectMapping: 1.615900 ms MarkObjects: 32.271000 ms  DeleteObjects: 12.054600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3899.544168 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(d621704e6924de04bbe028c86fc7ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(d621704e6924de04bbe028c86fc7ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18deb6b35e82b7e06ca8e1fefaaeeaae') in 0.0142259 seconds
+  Time since last request: 44354.389492 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(ca33524778e7e9e41aeff39be8befd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(ca33524778e7e9e41aeff39be8befd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff2102687ca6ec26894ec2e8caabb0bc') in 0.0357076 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-3KK8-Z8DG-EK7P-YRNW-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 2475587594734-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  8.774 seconds
-Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Failed to load: C:/Program Files/Unity/Hub/Editor/6000.2.2f1-x86_64/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.788 seconds
-Domain Reload Profiling: 12578ms
-	BeginReloadAssembly (3439ms)
-		ExecutionOrderSort (6ms)
-		DisableScriptedObjects (207ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (9ms)
-		CreateAndSetChildDomain (1096ms)
-	RebuildCommonClasses (353ms)
-	RebuildNativeTypeToScriptingClass (106ms)
-	initialDomainReloadingComplete (238ms)
-	LoadAllAssembliesAndSetupDomain (4651ms)
-		LoadAssemblies (3469ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2120ms)
-			TypeCache.Refresh (1266ms)
-				TypeCache.ScanAssembly (1071ms)
-			BuildScriptInfoCaches (768ms)
-			ResolveRequiredComponents (56ms)
-	FinalizeReload (3789ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2776ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (164ms)
-			SetLoadedEditorAssemblies (28ms)
-			BeforeProcessingInitializeOnLoad (574ms)
-			ProcessInitializeOnLoadAttributes (1727ms)
-			ProcessInitializeOnLoadMethodAttributes (262ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (89ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6172 unused Assets / (3.9 MB). Loaded Objects now: 6902.
-Memory consumption went from 141.6 MB to 137.7 MB.
-Total: 34.554600 ms (FindLiveObjects: 1.851400 ms CreateObjectMapping: 3.217500 ms MarkObjects: 19.875800 ms  DeleteObjects: 9.603400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
