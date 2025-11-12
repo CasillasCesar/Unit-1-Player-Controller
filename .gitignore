@@ -44,6 +44,8 @@
 
 # VS Code
 .vscode/
+.vs/
+.vsconfig
 
 # Rider
 .idea/
@@ -56,4 +58,4 @@
 .DS_Store
 
 # Archivos de sistema de Windows
-Thumbs.db.vs/ 
+Thumbs.db
