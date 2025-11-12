@@ -1,4 +1,59 @@
-/[Ll]ibrary/ 
-/[Tt]emp/ 
-/[Oo]bj/ 
-/Builds/ 
+# ===============================================
+# Directorios y Archivos Generados por Unity
+# ===============================================
+
+# 1. Caché y Archivos Temporales (IMPRESCINDIBLE)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uilds/
+/Build/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# 2. Archivos de Metadatos de Dependencias (Unity Package Manager)
+# Ignorar los metadatos generados automáticamente dentro de las carpetas de packages
+/Packages/manifest.json.meta
+/Packages/packages-lock.json.meta
+
+# 3. Datos de Instalación o Archivos de Test
+/[Aa]ssembly[Dd]efinitions.json
+/[Aa]ssembly[Dd]efinitions.json.meta
+/Assets/AssetStoreTools
+/Assets/**/Editor/AssetStoreTools
+
+# 4. Logs del Reproductor (Player)
+# Aunque la mayoría se generan fuera, esta regla previene los que se generan en la carpeta de la build.
+*.log
+*.pfx
+
+# 5. Archivos de Copia de Seguridad
+/Assets/*-backup.*
+
+# ===============================================
+# Archivos de Proyectos de IDE (Visual Studio, Rider)
+# ===============================================
+
+# Visual Studio / MonoDevelop
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# ===============================================
+# Otros
+# ===============================================
+
+# Thumbnails de macOS
+.DS_Store
+
+# Archivos de sistema de Windows
+Thumbs.db
