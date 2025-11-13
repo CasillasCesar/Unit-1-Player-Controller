@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class FollowPlayer : MonoBehaviour
 {
-    public float speed = 0.5f;
+    private Vector3 offset = new Vector3(0, 8, -26);
+    public GameObject player;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -10,9 +11,8 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        // Mover el vehiculo hacia adelante
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        transform.position = player.transform.position + offset;
     }
 }
